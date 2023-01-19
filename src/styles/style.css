@@ -95,6 +95,9 @@ body {
   padding: 1.5rem 6.5rem;
   border-radius: 8px;
   transition: 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .info .btn-add-to-cart::before {
