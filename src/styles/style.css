@@ -1,0 +1,115 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--cream);
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  background-color: var(--white);
+  border-radius: 12px;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+/* =================================== */
+
+.container .image-parfum {
+    max-width: 300px;
+}
+
+.container .image-parfum img {
+    width: 100%;
+    border-radius: 12px 0 0 12px;
+}
+
+/* =================================== */
+
+.container .info {
+  padding: 3rem 3rem 0 0;
+}
+
+/* ---------------------------- */
+
+.container .info .type-product {
+  font: 500 var(--paragraph) / 2rem var(--font-text);
+  color: var(--dark-cyan);
+  letter-spacing: 3.9px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+/* ---------------------------- */
+
+.container .info .title-product {
+  font: 700 2.9rem/3.2rem var(--font-heading);
+  letter-spacing: 2px;
+  color: var(--very-dark-blue);
+  margin-bottom: 2.8rem;
+}
+
+/* ----------------------------- */
+
+.container .info .description {
+  font: 500 var(--paragraph) / 2.2rem var(--font-text);
+  color: var(--dark-cyan);
+  margin-bottom: 3rem;
+}
+
+/* ---------------------------- */
+
+.container .info .price {
+  display: flex;
+  gap: 2.6rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.container .info .price .price-discounted {
+  font: 700 3rem var(--font-heading);
+  color: var(--dark-cyan);
+}
+
+.container .info .price .price-non-discounted {
+  font: 500 var(--paragraph) var(--font-text);
+  color: var(--dark-cyan);
+  text-decoration: line-through;
+}
+
+/* --------------------------- */
+
+.container .info .btn-add-to-cart {
+  font: 500 var(--paragraph) var(--font-text);
+  color: var(--white);
+  background-color: var(--dark-cyan);
+  padding: 1.5rem 6.5rem;
+  border-radius: 8px;
+}
+
+.container .info .btn-add-to-cart::before {
+  content: url(../images/icon-cart.svg);
+  margin-right: 10px;
+}
+
+.container .info .btn-add-to-cart:hover {
+  background-color: var(--very-dark-blue);
+}
+
+/* ===================================== */
+
+.attribution {
+  font: 500 11px var(--font-text);
+}
+
+.attribution .front-end-mentor {
+    color: var(--dark-cyan);
+}

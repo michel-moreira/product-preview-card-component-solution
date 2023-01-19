@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--white);
+    border-radius: 12px;
+    max-width: 400px;
+    padding-bottom: 4rem;
+    margin: 1.6rem;
+  }
+  /* --------------- */
+  .container .image-parfum {
+    max-width: 100%;
+  }
+  .container .image-parfum img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+  /* --------------- */
+  .container .info {
+    padding: 0 2.5rem;
+  }
+  /* --------------- */
+  .container .info .type-product {
+    margin-bottom: 1rem;
+  }
+  /* --------------- */
+  .container .info .title-product {
+    margin-bottom: 2rem;
+  }
+  /* --------------- */
+  .container .info .description {
+    margin-bottom: 2rem;
+  }
+  /* --------------- */
+  .container .info .price {
+    margin-bottom: 3rem;
+  }
+  /* --------------- */
+  .container .info .btn-add-to-cart {
+    padding: 1.5rem 9.2rem;
+    margin-bottom: 2rem;
+  }
+}

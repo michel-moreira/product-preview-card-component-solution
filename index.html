@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/src/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="src/styles/variables.css">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="stylesheet" href="src/styles/responsible.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+      <picture class="image-parfum">
+        <source srcset="./src/images/image-product-desktop.jpg" media="(min-width: 769px)">
+        <img src="./src/images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum" >
+      </picture>
+
+    <div class="info">
+      <p class="type-product">Perfume</p>
+
+      <h1 class="title-product">Gabrielle Essence Eau De Parfum</h1>
+
+      <p class="description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the house of
+        CHANEL.
+      </p>
+
+      <div class="price">
+        <p class="price-discounted">$ 149,99</p>
+        <p class="price-non-discounted">$169,99</p>
+      </div>
+
+      <a href="#" aria-label="add to cart" class="btn-add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="front-end-mentor">Frontend
+      Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/michel-moreira" target="_blank"
+      class="front-end-mentor">Michel Moreira</a>.
+  </div>
+</body>
+
+</html>
