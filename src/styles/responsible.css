@@ -36,11 +36,14 @@
   }
   /* --------------- */
   .container .info .price {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   /* --------------- */
   .container .info .btn-add-to-cart {
     padding: 1.5rem 9.2rem;
     margin-bottom: 2rem;
+    display: flex;
+    justify-self: center;
+    align-self: center;
   }
 }

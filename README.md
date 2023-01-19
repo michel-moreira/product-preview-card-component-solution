@@ -7,7 +7,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -29,10 +28,6 @@ Users should be able to:
 
 ![Mobile Version](./design/Screenshot-mobile.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-
 ## My process
 
 ### Built with
@@ -40,6 +35,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -60,6 +56,8 @@ Users should be able to:
 ```
 
 - Working with flexible display using the flexbox properties, positioning elements on the screen.
+
+- Working yet with positionin elements on screen with CSS Grid too.
 
 - Working with external fonts (Google fonts) to improve a better custom apparence.
 
