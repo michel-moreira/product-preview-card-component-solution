@@ -94,6 +94,7 @@ body {
   background-color: var(--dark-cyan);
   padding: 1.5rem 6.5rem;
   border-radius: 8px;
+  transition: 0.4s ease-in-out;
 }
 
 .container .info .btn-add-to-cart::before {
@@ -114,3 +115,4 @@ body {
 .attribution .front-end-mentor {
     color: var(--dark-cyan);
 }
+
